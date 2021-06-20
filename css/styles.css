@@ -1,0 +1,164 @@
+*{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*HTML Elements*/
+body{
+  text-align: center;
+}
+
+div{
+  padding: 10px 0px;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Merriweather', serif;
+  line-height: 5rem;
+  text-align: center;
+}
+
+h3{
+  color: #11999E;
+  line-height: 3rem;
+  font-family: 'Merriweather', serif;
+}
+
+hr{
+  border-color: #AAA;
+  border-style: dotted none none none;
+  border-width: 7.5px;
+  margin: 0px auto 0px auto;
+  width: 10%;
+}
+
+p{
+  color: #66BFBF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+span{
+  text-decoration: underline;
+}
+/*Top Division*/
+.top-division{
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud{
+  position: absolute;
+  /*Subject to change*/
+  top: 50px;
+  right: 200px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  /*Subject to change*/
+  top: 225px;
+  left: 200px;
+}
+
+/*Middle Division*/
+.middle-division{
+  /*Subject to change*/
+  margin: 100px auto 100px auto;
+  text-align: justify;
+  width: 50%;
+}
+
+.middle-division p{
+  color: #40514E;
+}
+
+.profile{
+  text-align: center;
+}
+
+.skill-row{
+  padding: 75px 0px;
+}
+
+.gaming{
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.web-development{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me{
+  text-align: center;
+}
+
+.contact-me p{
+  margin-bottom: 50px;
+}
+
+.button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-weight: 700;
+   padding: 25px;
+   background-color: #2CA500;
+   -webkit-box-shadow: 0 1px 20px 0 #FFFFFF;
+   -moz-box-shadow: 0 1px 20px 0 #FFFFFF;
+   box-shadow: 0 1px 20px 0 #FFFFFF;
+   text-shadow: 1px 8px 20px #FFFFFF;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   background: #23C526;
+   border: solid #C5F93E 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/*Bottom Division*/
+.bottom-division{
+  background-color: #66BFBF;
+  /*Subject to change*/
+  height: 100px;
+  line-height: 3rem;
+  margin: 0px auto 0px auto;
+}
+
+.bottom-division a{
+  color: #11999E;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.bottom-division p{
+  color: white;
+}
